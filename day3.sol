@@ -17,9 +17,4 @@ contract FunctionArgument{
     function get() public view returns(uint256){
         return stateVar;
     }
-1)Create a state variable of uint type (need not to be public).
-
-2)Create a set ( ) and with one argument. And set the value of the created state variable with the value passed as an argument to the set ( ).
-
-3)Then create another function get ( ) which returns the value of the state variable.
 }
